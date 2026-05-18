@@ -1,0 +1,49 @@
+USE programminghero;
+
+    CREATE TABLE Student (
+	Roll CHAR(4) PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    Email VARCHAR(50) UNIQUE,
+    Address VARCHAR(250),
+    Age INT CHECK(Age>10)
+    );
+    
+    INSERT INTO Student(Roll, Name, Email, Address, Age) VALUES ('0001', 'arfin', 'arfinaleusuf@gmail.com', 'dhaka', 11);
+    INSERT INTO Student(Roll, Name, Email, Address, Age) VALUES ('0002', 'arfin', 'arfinaleusuf.71@gmail.com', 'dhaka', 11);
+    INSERT INTO Student(Roll, Name, Email, Age) VALUES ('0003', 'arfin', 'arfin.71@gmail.com', 11);
+    
+    CREATE TABLE Student (
+	Roll CHAR(4),
+    Name VARCHAR(50) NOT NULL,
+    Email VARCHAR(50),
+    Address VARCHAR(250),
+    Age INT,
+    PRIMARY KEY (Roll),
+    UNIQUE (Email),
+    CHECK (Age>10)
+    );
+    
+    CREATE TABLE Student (
+	Roll CHAR(4),
+    Name VARCHAR(50) NOT NULL,
+    Email VARCHAR(50),
+    Address VARCHAR(250),
+    Age INT,
+    Constraint pk_rule PRIMARY KEY (Roll),
+    Constraint uniqe_rule UNIQUE (Email),
+    Constraint check_rule CHECK (Age>10)
+    );
+    
+    CREATE table Library(
+    BookName VARCHAR(50) PRIMARY KEY,
+    WhoHaired_Roll CHAR(4),
+    foreign key (WhoHaired_Roll) REFERENCES Student(Roll)
+    );
+    
+    CREATE table Course (
+		CourseName VARCHAR(10),
+        University VARCHAR(10),
+        Credit INT,
+        
+        PRIMARY KEY(CourseName, University)
+        );
