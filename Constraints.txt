@@ -1,4 +1,4 @@
-Constraints --> rules (niyom)
+Constraints --> rules (niyom) -- table create korrar shomoy use korte hoy
 
 Constraints:
     PRIMARY KEY -- konta primary key seta set kori
@@ -8,4 +8,3 @@ Constraints:
     DEFAULT -- value na dile ja bose
     NOT NULL -- value ar default na dile jeno null na bose
 
-    
