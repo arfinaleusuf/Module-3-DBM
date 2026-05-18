@@ -1,0 +1,11 @@
+Constraints --> rules (niyom)
+
+Constraints:
+    PRIMARY KEY -- konta primary key seta set kori
+    FOREIGN KEY -- konta foreign key oita set kori
+    UNIQUE  -- value unique
+    CHECK -- data check kore
+    DEFAULT -- value na dile ja bose
+    NOT NULL -- value ar default na dile jeno null na bose
+
+    
