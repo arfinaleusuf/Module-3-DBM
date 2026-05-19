@@ -1,0 +1,17 @@
+AND , OR
+
+Age 30 er kom but Salary 12000 er beshi
+
+SELECT Name , Salary
+FROM Employee
+WHERE Age < 30
+    AND Salary > 12000
+
+
+Ques: Salary 12000 hajar er beshi othoba age 25 er kom kintu Salary 1000 er beshi
+
+    SELECT *
+    FROM Employee
+    WHERE Salary > 12000
+        OR (Age < 25
+                AND Salary > 10000)
