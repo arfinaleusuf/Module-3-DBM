@@ -1,0 +1,14 @@
+Select Query --> showing data
+
+way 01
+    see all data:
+        -> SELECT Roll, Name, Phone, Email, Address  -- SELECT likhe tar por ja ja dekhte chai ta likhbo
+        FROM Student;   -- table er nam
+
+way 02
+    SELECT *  -- * dile shob coloum bojhay
+    FROM Student;
+
+see only names:
+    SELECT Name
+    FROM Student;    -- Name coloum e ja ache shob dekhabe
