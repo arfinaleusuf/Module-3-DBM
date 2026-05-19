@@ -1,0 +1,13 @@
+jar nam rohim tar shob data
+
+SELECT * 
+FROM Student
+WHERE Name = "Rahim"  -- rohim er ja info table e save avhe ta output ashbe
+
+
+
+jar Roll 104 tor phone number koto?
+
+SELECT Phone  -- Select er por ja thakbe tai output hishabe dekhabe
+FROM Student
+WHERE Roll = '104'
