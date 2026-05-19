@@ -1,0 +1,10 @@
+Arithmatic_operatons: + - * / %
+
+SELECT CSE + ME  -- Marks table er 103 roll row er CSE ar ME er Marks er sum
+FROM Marks
+WHERE Roll = "103"
+
+
+SELECT CSE+ME, CSE - ME, (CSE+ME)/2 , CSE%10
+FROM Marks
+WHERE Roll = "102"
