@@ -1,0 +1,12 @@
+= 
+<
+>
+<=
+>=
+!=
+
+kar kar age 20 er chey beshi ba shoman
+
+Select *
+FROM Student
+WHERE Age >= 20;
