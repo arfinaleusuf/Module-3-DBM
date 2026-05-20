@@ -5,8 +5,8 @@ ORDER BY -->
     Asc --> choto theke boro
     Dis --> boro theke choto
 
-LIMIT  --> 100 theke 10 ta dekhabe
-OFFSET ---> koyta bad
+LIMIT 60, 70 --> 100 theke 11 ta dekhabe
+OFFSET 59 ---> koyta bad.(1 theke 59 projonto dekhabe na)
 
 
 ---sequence---
