@@ -1,0 +1,37 @@
+DISTINCT --> alada
+
+
+ORDER BY -->
+    Asc --> choto theke boro
+    Dis --> boro theke choto
+
+LIMIT  --> 100 theke 10 ta dekhabe
+OFFSET ---> koyta bad
+
+
+---sequence---
+SELECT
+FROM
+WHERE
+ORDER BY
+LIMIT
+OFFSET
+
+
+Example:
+
+    SELECT ___
+    FROM ____
+    WHERE Roll IN (102, 103, 104, 105)
+        or, Roll NOT IN(102, 103, 104, 105)
+
+Like :
+    Rahim hassan
+
+    WHERE Name = "Rahim"  -- emon dike pabe na
+    WHERE Name Like "%Rahim%"  -- % mane ja kushi thakte pare, jodi name er age ba pore kichu thake tahole ta shomosha korbe na
+
+As:
+SELECT Name As StudentName (mane Name ke Student name hishabe use korbe. eta diye shot o kora jay)
+FROM ___
+WHERE ___
